@@ -43,7 +43,7 @@ PCA is applied to reduce the dimensionality of the dataset and identify the key 
 This was done first without data scaling, and then again with scaling. Scaling **did** have an effect on PCA. Upon using scaling, the variability explained went from the top 3 principal components explaining 93% of the variability to then then needing the top 10 principal components to explain only 84% of the variability. 
 
 Finding the top contributing attributes to each principal component revealed:
-- Before scaling: mental health (MentHlth) was among the highest contributers for the top 4 principal components. For PC1, the top contributor was PhysHlth. For PC2, the top contributor was BMI. For PC3, the top was MentHlth. And, for PC4, the top contributor was Age.
-- After scaling: Smoke was among the top contributors for PC1, PC2, and PC4. For PC1, the top contributor was HighBP. For PC2, the top contributor was Sex followed by Fruits. For PC3, the top contributor was Sex followed by PhysicalActivity. And, for PC1, the top contributor was Smoke followed by Fruits.
+- **Before scaling**: mental health (MentHlth) was among the highest contributers for the top 4 principal components. For PC1, the top contributor was PhysHlth. For PC2, the top contributor was BMI. For PC3, the top was MentHlth. And, for PC4, the top contributor was Age.
+- **After scaling**: Smoke was among the top contributors for PC1, PC2, and PC4. For PC1, the top contributor was HighBP. For PC2, the top contributor was Sex followed by Fruits. For PC3, the top contributor was Sex followed by PhysicalActivity. And, for PC1, the top contributor was Smoke followed by Fruits.
 
-Effect of scaling: while scaling did create a PCA model whose variability isn't thoroughly explained by the first 3-5 principal components, scaling did provide principal components with more unique combinations of attributes that contributed to each component.
+**Effect of scaling**: while scaling did create a PCA model whose variability isn't thoroughly explained by the first 3-5 principal components, scaling did provide principal components with more unique combinations of attributes that contributed to each component.
